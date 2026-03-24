@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Biblioteka.DAL.Models.ZahtevZaPozajmljivanje>
+@{
+    ViewData["Title"] = "Moji zahtevi";
+}
+
+<div class="container mt-4">
+    <h2>📖 Moji zahtevi za pozajmljivanje</h2>
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">Nemaš još nijedan zahtev.</div>
+    }
+    else
+    {
+        <table class="table table-bordered">
+            <thead class="table-dark">
+                <tr><th>Knjiga</th><th>Datum zahteva</th><th>Status</th><th>Napomena</th></tr>
+            </thead>
+            <tbody>
+                @foreach (var z in Model)
+                {
+                    <tr>
+                        <td>@z.Knjiga?.Naslov</td>
+                        <td>@z.DatumZahteva.ToString("dd.MM.yyyy")</td>
+                        <td>
+                            @switch (z.Status)
+                            {
+                                case Biblioteka.DAL.Models.StatusZahteva.NaCekanju:
+                                    <span class="badge bg-warning text-dark">Na čekanju</span>
+                                    ; break;
+                                case Biblioteka.DAL.Models.StatusZahteva.Odobren:
+                                    <span class="badge bg-success">Odobren</span>
+                                    ; break;
+                                case Biblioteka.DAL.Models.StatusZahteva.Odbijen:
+                                    <span class="badge bg-danger">Odbijen</span>
+                                    ; break;
+                                case Biblioteka.DAL.Models.StatusZahteva.Vratio:
+                                    <span class="badge bg-secondary">Vratio</span>
+                                    ; break;
+                            }
+                        </td>
+                        <td>@(z.NapomenaAdmina ?? "—")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

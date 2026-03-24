@@ -1,0 +1,24 @@
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.DAL\bin\Debug\net8.0\Biblioteka.DAL.deps.json
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.DAL\bin\Debug\net8.0\Biblioteka.DAL.dll
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.DAL\bin\Debug\net8.0\Biblioteka.DAL.pdb
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.DAL\obj\Debug\net8.0\Biblioteka.DAL.csproj.AssemblyReference.cache
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.DAL\obj\Debug\net8.0\Biblioteka.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.DAL\obj\Debug\net8.0\Biblioteka.DAL.AssemblyInfoInputs.cache
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.DAL\obj\Debug\net8.0\Biblioteka.DAL.AssemblyInfo.cs
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.DAL\obj\Debug\net8.0\Biblioteka.DAL.csproj.CoreCompileInputs.cache
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.DAL\obj\Debug\net8.0\Biblioteka.DAL.dll
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.DAL\obj\Debug\net8.0\refint\Biblioteka.DAL.dll
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.DAL\obj\Debug\net8.0\Biblioteka.DAL.pdb
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.DAL\obj\Debug\net8.0\ref\Biblioteka.DAL.dll
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.DAL\bin\Debug\net8.0\Biblioteka.DAL.deps.json
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.DAL\bin\Debug\net8.0\Biblioteka.DAL.dll
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.DAL\bin\Debug\net8.0\Biblioteka.DAL.pdb
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.DAL\obj\Debug\net8.0\Biblioteka.DAL.csproj.AssemblyReference.cache
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.DAL\obj\Debug\net8.0\Biblioteka.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.DAL\obj\Debug\net8.0\Biblioteka.DAL.AssemblyInfoInputs.cache
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.DAL\obj\Debug\net8.0\Biblioteka.DAL.AssemblyInfo.cs
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.DAL\obj\Debug\net8.0\Biblioteka.DAL.csproj.CoreCompileInputs.cache
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.DAL\obj\Debug\net8.0\Biblioteka.DAL.dll
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.DAL\obj\Debug\net8.0\refint\Biblioteka.DAL.dll
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.DAL\obj\Debug\net8.0\Biblioteka.DAL.pdb
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.DAL\obj\Debug\net8.0\ref\Biblioteka.DAL.dll

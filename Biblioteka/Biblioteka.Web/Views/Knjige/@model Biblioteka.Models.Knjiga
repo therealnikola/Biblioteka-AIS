@@ -1,0 +1,36 @@
+﻿@model Biblioteka.Models.Knjiga
+@{
+    ViewData["Title"] = "Detalji knjige";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">📖 Detalji knjige</h2>
+
+    <dl class="row">
+        <dt class="col-sm-3">Naslov</dt>
+        <dd class="col-sm-9">@Model.Naslov</dd>
+
+        <dt class="col-sm-3">Autor</dt>
+        <dd class="col-sm-9">@Model.Autor</dd>
+
+        <dt class="col-sm-3">Godina izdanja</dt>
+        <dd class="col-sm-9">@Model.Godina</dd>
+
+        <dt class="col-sm-3">ISBN</dt>
+        <dd class="col-sm-9">@Model.ISBN</dd>
+
+        <dt class="col-sm-3">Dostupnost</dt>
+        <dd class="col-sm-9">
+            @if (Model.Dostupna)
+            {
+                <span class="badge bg-success">Dostupna</span>
+            }
+            else
+            {
+                <span class="badge bg-danger">Nije dostupna</span>
+            }
+        </dd>
+    </dl>
+
+    <a asp-action="Index" class="btn btn-secondary">← Nazad na listu</a>
+</div>

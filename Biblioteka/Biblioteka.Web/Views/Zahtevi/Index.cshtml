@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Biblioteka.DAL.Models.ZahtevZaPozajmljivanje>
+@{
+    ViewData["Title"] = "Svi zahtevi";
+}
+
+<div class="container mt-4">
+    <h2>📋 Zahtevi za pozajmljivanje</h2>
+    @if (TempData["Poruka"] != null)
+    {
+        <div class="alert alert-success">@TempData["Poruka"]</div>
+    }
+
+    <table class="table table-bordered">
+        <thead class="table-dark">
+            <tr><th>Korisnik</th><th>Knjiga</th><th>Datum</th><th>Status</th><th>Akcija</th></tr>
+        </thead>
+        <tbody>
+            @foreach (var z in Model)
+            {
+                <tr>
+                    <td>@z.Korisnik?.Email</td>
+                    <td>@z.Knjiga?.Naslov</td>
+                    <td>@z.DatumZahteva.ToString("dd.MM.yyyy")</td>
+                    <td>
+                        @switch (z.Status)
+                        {
+                            case Biblioteka.DAL.Models.StatusZahteva.NaCekanju:
+                                <span class="badge bg-warning text-dark">Na čekanju</span>
+                                ; break;
+                            case Biblioteka.DAL.Models.StatusZahteva.Odobren:
+                                <span class="badge bg-success">Odobren</span>
+                                ; break;
+                            case Biblioteka.DAL.Models.StatusZahteva.Odbijen:
+                                <span class="badge bg-danger">Odbijen</span>
+                                ; break;
+                            case Biblioteka.DAL.Models.StatusZahteva.Vratio:
+                                <span class="badge bg-secondary">Vratio</span>
+                                ; break;
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="Detalji" asp-route-id="@z.Id" class="btn btn-sm btn-primary">Obradi</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

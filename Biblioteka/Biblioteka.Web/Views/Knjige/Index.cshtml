@@ -1,0 +1,91 @@
+﻿@model IEnumerable<Biblioteka.DAL.Models.Knjiga>
+@{
+    ViewData["Title"] = "Lista knjiga";
+}
+
+<div class="container mt-4">
+    <h2>📚 Biblioteka</h2>
+
+    @if (TempData["Poruka"] != null)
+    {
+        <div class="alert alert-success">@TempData["Poruka"]</div>
+    }
+    @if (TempData["Greška"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Greška"]</div>
+    }
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <form method="get">
+                <div class="input-group">
+                    <input type="text" name="pretraga" value="@ViewData["Pretraga"]"
+                           class="form-control" placeholder="Pretraži..." />
+                    <button class="btn btn-outline-secondary" type="submit">Traži</button>
+                    <a href="/Knjige" class="btn btn-outline-danger">Resetuj</a>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6 text-end">
+            @if (User.IsInRole("Admin"))
+            {
+                <a asp-action="Dodaj" class="btn btn-primary">+ Dodaj knjigu</a>
+                <a asp-controller="Zahtevi" asp-action="Index" class="btn btn-warning ms-2">📋 Zahtevi</a>
+            }
+            @if (User.IsInRole("Klijent"))
+            {
+                <a asp-controller="Zahtevi" asp-action="MojiZahtevi" class="btn btn-info">Moji zahtevi</a>
+            }
+        </div>
+    </div>
+
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Naslov</th>
+                <th>Autor</th>
+                <th>Godina</th>
+                <th>Dostupnost</th>
+                <th>Akcije</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var knjiga in Model)
+            {
+                <tr>
+                    <td>@knjiga.Naslov</td>
+                    <td>@knjiga.Autor</td>
+                    <td>@knjiga.Godina</td>
+                    <td>
+                        @if (knjiga.Dostupna)
+                        {
+                            <span class="badge bg-success">Dostupna</span>
+                        }
+                        else
+                        {
+
+                            <span class="badge bg-danger">Nije dostupna</span>
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="Detalji" asp-route-id="@knjiga.Id" class="btn btn-sm btn-info">Detalji</a>
+
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a asp-action="Obrisi" asp-route-id="@knjiga.Id" class="btn btn-sm btn-danger"
+                               onclick="return confirm('Obrisati?')">Obriši</a>
+                        }
+                        @if (User.IsInRole("Klijent") && knjiga.Dostupna)
+                        {
+                            <form asp-action="PosaljiZahtev" method="post" style="display:inline">
+                                <input type="hidden" name="knjigaId" value="@knjiga.Id" />
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-sm btn-success">Pozajmi</button>
+                            </form>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

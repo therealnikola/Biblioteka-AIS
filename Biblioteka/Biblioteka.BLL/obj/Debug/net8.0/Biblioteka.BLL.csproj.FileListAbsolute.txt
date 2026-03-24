@@ -1,0 +1,30 @@
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.BLL\bin\Debug\net8.0\Biblioteka.BLL.deps.json
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.BLL\bin\Debug\net8.0\Biblioteka.BLL.dll
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.BLL\bin\Debug\net8.0\Biblioteka.BLL.pdb
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.BLL\bin\Debug\net8.0\Biblioteka.DAL.dll
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.BLL\bin\Debug\net8.0\Biblioteka.DAL.pdb
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\Biblioteka.BLL.csproj.AssemblyReference.cache
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\Biblioteka.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\Biblioteka.BLL.AssemblyInfoInputs.cache
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\Biblioteka.BLL.AssemblyInfo.cs
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\Biblioteka.BLL.csproj.CoreCompileInputs.cache
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\Bibliote.C1E2845B.Up2Date
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\Biblioteka.BLL.dll
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\refint\Biblioteka.BLL.dll
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\Biblioteka.BLL.pdb
+C:\Users\nikola\Desktop\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\ref\Biblioteka.BLL.dll
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.BLL\bin\Debug\net8.0\Biblioteka.BLL.deps.json
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.BLL\bin\Debug\net8.0\Biblioteka.BLL.dll
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.BLL\bin\Debug\net8.0\Biblioteka.BLL.pdb
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.BLL\bin\Debug\net8.0\Biblioteka.DAL.dll
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.BLL\bin\Debug\net8.0\Biblioteka.DAL.pdb
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\Biblioteka.BLL.csproj.AssemblyReference.cache
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\Biblioteka.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\Biblioteka.BLL.AssemblyInfoInputs.cache
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\Biblioteka.BLL.AssemblyInfo.cs
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\Biblioteka.BLL.csproj.CoreCompileInputs.cache
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\Bibliote.C1E2845B.Up2Date
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\Biblioteka.BLL.dll
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\refint\Biblioteka.BLL.dll
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\Biblioteka.BLL.pdb
+C:\Users\nikola\Desktop\Seminarski\Arhitektura informacionih sistema\Biblioteka\Biblioteka\Biblioteka.BLL\obj\Debug\net8.0\ref\Biblioteka.BLL.dll
